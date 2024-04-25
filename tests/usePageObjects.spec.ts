@@ -44,6 +44,6 @@ test.only('test with Argos CI', async({page}) => {
     await argosScreenshot(page, "formsLayoutPage")
 
     await pm.navigateTo().datePickerPage()
-    await pm.onDatepickerPage().selectCommonDatePickerDateFromToday(5)
+    await pm.onDatepickerPage().selectCommonDatePickerDateFromToday(10)
 
 })
